@@ -6,18 +6,18 @@ This repository contains code and data to recreate the findings from two manuscr
   Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. **A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities.** *Under Review*.
 
 ## The Folder Structure
-The file **input data** contains data aggregated from various governmental sources in Brazil. TB case notification and treatment outcome data come from SINAN. Mortality data come from SIM. Demographic data come from IBGE. See citation list below. 
+The file **xx_input_data** contains data aggregated from various governmental sources in Brazil. TB case notification and treatment outcome data come from SINAN. Mortality data come from SIM. Demographic data come from IBGE. See citation list below. 
 
-The file **model run** contains code to initiate a model run. Please note that running rstan is computationally intensive; model runs may take multiple hours! 
+The file **xx_model_run** contains code to initiate a model run. Please note that running rstan is computationally intensive; model runs may take multiple hours! 
 
 The file **xx_model.stan** contains the actual model code. 
 
 ## The Models
 Both models produce estimates of TB incidence and fraction of cases treated by geographical area in Brazil using a mechanistic model of TB natural history. The models are implemented in the rstan, a package for fitting Bayesian models in R. 
 
-The folder **TimeTrendModel** contains a model that produces a 10-year time series of estimates. This model is intended to be run with state-level data. 
+The folder **TimeTrend** contains a model that produces a 10-year time series of estimates. This model is intended to be run with state-level data. 
 
-The folder **SpatialModel** contains a model that produces spatially-explicit estimates for a single timepoint. 
+The folder **Spatial** contains a model that produces spatially-explicit estimates for a single timepoint. 
 
 ## Additional Model Code
 The stan code in "SpatialModel" was adapted from existing code: https://github.com/stan-dev/example-models/tree/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson 
