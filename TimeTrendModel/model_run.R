@@ -1,6 +1,6 @@
 ###############################
 # BRAZIL SMALL AREA INCIDENCE #
-# Final State Model ###########
+# Time Series Model ###########
 ###############################
 library(rstan)
 rstan_options(auto_write = TRUE)
