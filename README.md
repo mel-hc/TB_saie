@@ -8,7 +8,7 @@ This repository contains code and data to recreate the findings from two manuscr
 ## The Folder Structure
 The file **xx_input_data** contains data aggregated from various governmental sources in Brazil. TB case notification and treatment outcome data come from SINAN. Mortality data come from SIM. Demographic data come from IBGE. See citation list below. 
 
-The file **xx_model_run** contains code to initiate a model run. Please note that running rstan is computationally intensive; model runs may take multiple hours! 
+The file **xx_model_run.R** contains code to initiate a model run. Please note that running rstan is computationally intensive; model runs may take multiple hours! 
 
 The file **xx_model.stan** contains the actual model code. 
 
