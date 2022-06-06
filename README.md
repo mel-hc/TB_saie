@@ -6,9 +6,8 @@ Chitwood MH, Pelissari DM, Drummond Marques da Silva G, Bartholomay P, Rocha MS,
 Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities. *Under Review*.
 
 # The Models
-
 Both models produce estimates of TB incidence and fraction of cases treated by geographical area in Brazil using a mechanistic model of TB natural history. The models are implement in the rstan, a package for implementing Bayesian models in R. 
 
-The file #TimeTrendModel# contains input data and R code to run a stan model. This model produces a 10-year time series of estimates at the state level. 
+The file **TimeTrendModel** contains input data and R code to run a stan model. This model produces a 10-year time series of estimates at the state level. 
 
-The file #SpatialModel# input data and R code to run a stan model. This model produces estimates at a single timepoint at the municipal level.
+The file **SpatialModel** input data and R code to run a stan model. This model produces estimates at a single timepoint at the municipal level.
