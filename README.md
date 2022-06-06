@@ -1,9 +1,9 @@
 # TB Small Area Incidence Estimation
 This repository contains code and data to recreate the findings from two manuscripts related to small area TB burden estimation in Brazil: 
 
-Chitwood MH, Pelissari DM, Drummond Marques da Silva G, Bartholomay P, Rocha MS, Sanchez M, Arakaki-Sanchez D, Glaziou P, Cohen T, Castro MC, Menzies NA. Bayesian evidence synthesis to estimate subnational TB incidence: An application in Brazil. Epidemics. 2021 Jun;35:100443. doi: 10.1016/j.epidem.2021.100443. Epub 2021 Feb 20. PMID: 33676092; PMCID: PMC8252152.
+  Chitwood MH, Pelissari DM, Drummond Marques da Silva G, Bartholomay P, Rocha MS, Sanchez M, Arakaki-Sanchez D, Glaziou P, Cohen T, Castro MC, Menzies NA. **Bayesian evidence synthesis to estimate subnational TB incidence: An application in Brazil.** Epidemics. 2021 Jun;35:100443. doi: 10.1016/j.epidem.2021.100443. Epub 2021 Feb 20. PMID: 33676092; PMCID: PMC8252152.
 
-Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities. *Under Review*.
+  Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. **A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities.** *Under Review*.
 
 ## The Folder Structure
 The file **input data** contains data aggregated from various governmental sources in Brazil. TB case notification and treatment outcome data come from SINAN. Mortality data come from SIM. Demographic data come from IBGE. See citation list below. 
