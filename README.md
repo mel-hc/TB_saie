@@ -40,4 +40,4 @@ Brasil, Ministério da Saúde. Banco de dados do Sistema Unico de Saúde-DATASUS
 Shapefiles were acccessed from: Pereira, R.H.M.; Gonçalves, C.N.; et. all (2019) geobr: Loads Shapefiles of Official Spatial Data Sets of Brazil. GitHub repository - https://github.com/ipeaGIT/geobr.
 
 ### The Fine Print
-This repository is meant to reduce friction in sharing information about the models described in the two publications listed here. This repository assumes a working knowledge of rstan, and the code is not intended to be applied to other datasets 'off the shelf'. Please refer to the manuscripts for more information about model assumptions and limitations. 
+This repository is meant to reduce friction in sharing information about the models described in the two publications listed above. This repository assumes a working knowledge of rstan, and the code is not intended to be applied to other datasets 'off the shelf'. Please refer to the publications for more information about model assumptions and limitations. 
