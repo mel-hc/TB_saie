@@ -19,7 +19,12 @@ The folder **TimeTrendModel** contains a model that produces a 10-year time seri
 
 The folder **SpatialModel** contains a model that produces spatially-explicit estimates for a single timepoint. 
 
-## The Citations
+## Additional Model Code
+The stan code in "SpatialModel" was adapted from existing code: https://github.com/stan-dev/example-models/tree/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson 
+
+I do not include code to convert a neighbors matrix to the list of nodes and edges that rstan requires, nor do I include code to calculate the scaling factor; I made use of the funcitons included in the file "nb_data_funs.R" (in the stan-dev repository, above). 
+
+## The Data Sources
 Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância Epidemiológica. Sistema de Informação de Agravos de Notificação – Sinan. Available from: http://tabnet.datasus.gov.br/cgi/menu_tabnet_php.htm 
 
 Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Eventos Vitais – Sistema de Informação sobre Mortalidade (SIM). Available from: http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def 
@@ -35,4 +40,4 @@ Brasil, Ministério da Saúde. Banco de dados do Sistema Unico de Saúde-DATASUS
 Shapefiles were acccessed from: Pereira, R.H.M.; Gonçalves, C.N.; et. all (2019) geobr: Loads Shapefiles of Official Spatial Data Sets of Brazil. GitHub repository - https://github.com/ipeaGIT/geobr.
 
 ### The Fine Print
-This repository is meant to reduce friction in sharing information about the models described in these two publications. It assumes a working knowledge of rstan, and may require some re-coding for use with other datasets. Please refer to the manuscripts for more information about model assumptions and limitations. 
+This repository is meant to reduce friction in sharing information about the models described in the two publications listed here. This repository assumes a working knowledge of rstan, and the code is not intended to be applied to other datasets 'off the shelf'. Please refer to the manuscripts for more information about model assumptions and limitations. 
