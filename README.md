@@ -1,4 +1,4 @@
-# IncidenceEstimation
+# TB Small Area Incidence Estimation
 This repository contains code and data to recreate the findings in "A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities" by Chitwood et al. 
 
 # Table of contents
