@@ -29,7 +29,7 @@ datalist[["unknown"]]     <-  as.numeric(m_state$other) # unknown outcomes
 
 # Model Run
 start <- Sys.time()
-fit_stan <-  stan(file    = "time_trends_stan_model.stan",
+fit_stan <-  stan(file    = "time_trends_model.stan",
                    data    = datalist,
                    seed    = 123, 
                    chains  = 4, 
