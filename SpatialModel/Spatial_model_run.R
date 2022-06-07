@@ -17,12 +17,12 @@ data.list <- list(
   N_cov_ft     = ncol(cov_ft),
   y_notif      = data$cases,   
   y_all_mort   = data$sim_death,
-  x_id         = as.numeric(as.factor(data$ID)),  
+  x_id         = as.numeric(as.factor(data$ID)), # location id, indexed from 1 
   pop_100k     = data$pop_100k,
   idc          = as.numeric(data$pct_idc), # percent of total deaths with poorly defined cause
   p_cov        = as.numeric(data$k50), # coverage estimates by state
-  pri_mort_t   = data$frac_mort, #municipal$mort_treat # treatment cfr (pr(mort | notif))
-  pri_aban_t   = data$frac_aban, # treatment cfr (pr(mort | notif))
+  pri_mort_t   = data$frac_mort, # treatment cfr: pr(mort | notif)
+  pri_aban_t   = data$frac_aban, # pr(loss to follow-up | notif)
   cov_in       = cov_in, # incidence covariates
   cov_ft       = cov_ft, # fraction treated covariates
   scale_factor = scaling_factor, 
