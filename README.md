@@ -8,9 +8,9 @@ This repository contains code and data to recreate the findings from two manuscr
 ## The Models
 Both models produce estimates of TB incidence and fraction of cases treated by geographical area in Brazil using a mechanistic model of TB natural history. The models are implemented in rstan, a package for fitting Bayesian models in R. 
 
-The folder **TimeTrend** contains a model that produces a time series of estimates. This model is intended for a smaller number of geographies. 
+The folder [TimeTrendModel](https://github.com/mel-hc/TB_saie/tree/main/TimeTrendModel) contains a model that produces a time series of estimates. This model is intended for a smaller number of geographies. 
 
-The folder **Spatial** contains a model that produces spatially-explicit estimates for a single timepoint and can accomodate a large number of geographies.
+The folder [SpatialModle](https://github.com/mel-hc/TB_saie/tree/main/SpatialModel) contains a model that produces spatially-explicit estimates for a single timepoint and can accomodate a large number of geographies.
 
 ## The Folder Structure
 The file **xx_input_data** contains data aggregated from various governmental sources in Brazil. TB case notification and treatment outcome data come from SINAN. Mortality data come from SIM. Demographic data come from IBGE. See full citation list below. 
