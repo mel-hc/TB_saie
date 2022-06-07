@@ -24,7 +24,7 @@ The stan code in "SpatialModel" was adapted from example [Besag-York-Mollié 2 m
 
 I do not include code to convert a neighbors matrix to a list of nodes and edges (to input into rstan), nor do I include the code to calculate the scaling factor. To perform these functions, I used code from the file ["nb_data_funs.R"](https://github.com/stan-dev/example-models/blob/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson/nb_data_funs.R). 
 
-## The Data Sources
+## Data Sources
 Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância Epidemiológica. Sistema de Informação de Agravos de Notificação – Sinan. Available from: http://tabnet.datasus.gov.br/cgi/menu_tabnet_php.htm 
 
 Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Eventos Vitais – Sistema de Informação sobre Mortalidade (SIM). Available from: http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def 
