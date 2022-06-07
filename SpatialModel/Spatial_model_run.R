@@ -31,7 +31,7 @@ data.list <- list(
   index_j      = nbs$node2  # to index from 1 instead of zero
 )
 
-fit_stan <- stan(file       = "spatial_model.stan",
+fit_stan <- stan(file       = "Spatial_model.stan",
                  data       = data.list,
                  fit 	    = NA,
 		 seed       = 1152, 
