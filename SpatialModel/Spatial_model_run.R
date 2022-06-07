@@ -33,8 +33,8 @@ data.list <- list(
 
 fit_stan <- stan(file       = "spatial_model.stan",
                  data       = data.list,
-                 fit 	      = NA,
-		             seed       = 1152, 
+                 fit 	    = NA,
+		 seed       = 1152, 
                  chains     = 4, 
                  iter       = 6000, 
                  warmup     = 5500,
