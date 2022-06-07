@@ -6,8 +6,6 @@ library(rstan)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 
-library(spdep)
-
 cov_in <- as.matrix(read.csv("input_data/cov_in.csv"))
 cov_ft <- as.matrix(read.csv("input_data/cov_ft.csv"))
 data <- read.csv("input_data/all_data.csv")
