@@ -20,7 +20,7 @@ The file **xx_model_run.R** contains code to initiate a model run. Please note t
 The file **xx_model.stan** contains the code for the statistical model. 
 
 ## Additional Model Code
-The stan code in "SpatialModel" was adapted from existing [code](https://github.com/stan-dev/example-models/tree/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson) written by the stan development team.
+The stan code in "SpatialModel" was adapted from example [Besag-York-Mollié 2 model](https://pubmed.ncbi.nlm.nih.gov/31677766/) [code](https://github.com/stan-dev/example-models/blob/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson/bym2.stan) written by the stan development team.
 
 I do not include code to convert a neighbors matrix to a list of nodes and edges (to input into rstan), nor do I include the code to calculate the scaling factor. To perform these functions, I used code from the file ["nb_data_funs.R"](https://github.com/stan-dev/example-models/blob/885bd18e93fd4b7b19290d8967064174bbe45156/knitr/car-iar-poisson/nb_data_funs.R). 
 
