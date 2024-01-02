@@ -3,7 +3,7 @@ This repository contains code and data to recreate the findings from two manuscr
 
   Chitwood MH, Pelissari DM, Drummond Marques da Silva G, Bartholomay P, Rocha MS, Sanchez M, Arakaki-Sanchez D, Glaziou P, Cohen T, Castro MC, Menzies NA. **Bayesian evidence synthesis to estimate subnational TB incidence: An application in Brazil.** Epidemics. 2021 Jun;35:100443. doi: 10.1016/j.epidem.2021.100443. Epub 2021 Feb 20. [PMID: 33676092](https://pubmed.ncbi.nlm.nih.gov/33676092/).
 
-  Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. **A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities.** *Under Review*.
+  Chitwood MH, Alves LC, Bartholomay P, Couto RM, Sanchez M, Castro MC, Cohen T, Menzies NA. **A spatial-mechanistic model to estimate subnational tuberculosis burden with routinely collected data: an application in Brazilian municipalities.** PLOS Global Public Health 2022; 2(9): e0000725. https://doi.org/10.1371/journal.pgph.0000725 [PMID: 36962578](https://pubmed.ncbi.nlm.nih.gov/36962578/)
 
 ## The Models
 Both models produce estimates of TB incidence and fraction of cases treated by geographical area in Brazil using a mechanistic model of TB natural history. The models are implemented in rstan, a package for fitting Bayesian models in R. 
