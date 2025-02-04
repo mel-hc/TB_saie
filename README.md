@@ -28,9 +28,7 @@ I do not include code to convert a neighbors matrix to a list of nodes and edges
 The model was fit with the package 'rstan' (version 2.21.3) in R (version 4.1.2). 
 
 ## Data Sources
-Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância Epidemiológica. Sistema de Informação de Agravos de Notificação – Sinan. Available from: http://tabnet.datasus.gov.br/cgi/menu_tabnet_php.htm 
-
-Brasil Ministério da Saúde. Secretaria de Vigilância em Saúde. Eventos Vitais – Sistema de Informação sobre Mortalidade (SIM). Available from: http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def 
+Brasil Ministério da Saúde. DATASUS. Transferência de Arquivos. Available from: https://datasus.saude.gov.br/transferencia-de-arquivos/
 
 Sistema Ibge de Recuperação Automática – SIDRA. Instituto Brasileiro de Geografia e Estatística. Available from: https://sidra.ibge.gov.br/home/pimpfbr/brasil 
 
